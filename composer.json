@@ -1,0 +1,42 @@
+{
+  "name": "artuu/flarum-imager",
+  "description": "Allows you to set default sizes for photos uploaded to the forum and change their size in the url.",
+  "type": "flarum-extension",
+  "keywords": [
+    "artuu",
+    "Imager",
+    "flarum"
+  ],
+  "homepage": "https://github.com/Artuuuu/flarum-imager",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Artuu"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/Artuuuu/flarum-imager/issues",
+    "source": "https://github.com/Artuuuu/flarum-imager"
+  },
+  "require": {
+    "flarum/core": ">=0.1.0-beta.13 <0.1.0-beta.14"
+  },
+  "autoload": {
+    "psr-4": {
+      "Artuu\\Imager\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Artuu Imager",
+      "icon": {
+        "name": "far fa-images",
+        "backgroundColor": "#1c141f",
+        "color": "#8e24aa"
+      }
+    },
+    "flagrow": {
+      "discuss": "https://discuss.flarum.org/d/24202"
+    }
+  }
+}

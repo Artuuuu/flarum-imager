@@ -1,0 +1,8 @@
+!.gitignore
+js/node_modules
+js/package-lock.json
+vendor/
+composer.phar
+composer.lock
+.DS_Store
+Thumbs.db
